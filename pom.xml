@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mininglamp.emay.elsaticsearch</groupId>
+    <groupId>com.mininglamp.elsaticsearch</groupId>
     <artifactId>elasticsearch_demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -212,7 +212,7 @@
                     <outputDirectory>${project.build.directory}/${project.artifactId}/lib</outputDirectory>
                     <archive>
                         <manifest>
-                            <mainClass>com.mininglamp.emay.regextagmarker.Main</mainClass>
+                            <mainClass>com.mininglamp.regextagmarker.Main</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Class-Path>sparkLib/spark-assembly-1.5.1-hadoop2.6.0.jar
